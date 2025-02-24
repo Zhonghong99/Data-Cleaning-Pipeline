@@ -19,6 +19,10 @@ Ensure you have Python 3.x installed. Then, install the required dependencies:
 ```bash
 pip install pandas numpy scikit-learn ydata-profiling openpyxl
 
+## Installation
+
+1. Clone this repository
+2. Install the required packages
 ## Requirements
 - python
 - pandas
@@ -26,26 +30,6 @@ pip install pandas numpy scikit-learn ydata-profiling openpyxl
 - scikit-learn
 - ydata-profiling
 - openpyxl
-
-## Installation
-
-1. Clone this repository
-2. Install the required packages:
-
-## Pipeline Steps
-
-1. **Data Loading**: Automatically detects and loads data from CSV, Excel, or JSON files.
-2. **EDA Report Generation**: Creates a comprehensive exploratory data analysis report using YData Profiling.
-3. **Missing Value Handling**: 
-   - Encodes categorical variables
-   - Applies specified imputation strategy for numerical data
-   - Uses mode imputation for categorical data
-4. **Duplicate Removal**: Removes duplicate rows from the dataset.
-5. **Text Cleaning**: Standardizes text data by converting to lowercase and removing extra whitespace.
-6. **Data Standardization**: Applies StandardScaler to numerical columns.
-7. **Data Export**: Saves the cleaned dataset to a CSV file.
-
-## Usage
 
 Modify `main.py` with the path to your dataset and run the script:
 
